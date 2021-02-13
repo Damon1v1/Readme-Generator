@@ -1,7 +1,7 @@
 [comment]: <> (SAMPLE README FILE MADE FROM SCRIPT)
 
 # README Generator
-  ![GitHub license](https://img.shields.io/badge/license-Microsoft Public License-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MicrosoftPublicLicense-blue.svg)
 
 ## Table of contents
 
@@ -39,7 +39,6 @@ Dave
 ## Contact
 Questions about this project should be sent to damonburda96@gmail.com
 
-## License
 ## License
 
 This project is licensed under the Microsoft Public License license.
