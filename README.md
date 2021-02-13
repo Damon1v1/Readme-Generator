@@ -20,6 +20,9 @@ Testing Section
 ## Walkthrough
 https://drive.google.com/file/d/1QKd7wEAGlJ9jFUycC0CerdMa8iTCBGgK/view?usp=sharing
 
+## Sample README
+https://drive.google.com/file/d/1SHXqzm6FWcmJ0EfrjVbcvZy5kabXHbD8/view?usp=sharing
+
 ## Credits
 ### Resources I used on this project
 ```
