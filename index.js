@@ -1,7 +1,8 @@
-
+// Calling in all of our packages
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
+// Calling in our script to wirte the readme file
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
@@ -33,14 +34,33 @@ const questions = [
 
     {
         type: "input",
-        name: "features",
-        message: "What are the features of the project?"
+        name: "install",
+        message: "What does the user need to know about installation?"
     },
 
     {
         type: "input",
+        name: "test",
+        message: "What does the user need to know about testing your project?"
+    },
+
+    {
+        type: "input",
+        name: "contribute",
+        message: "What does the user need to know about contributing to your project?"
+    },
+    
+    {
+        type: "input",
         name: "credits",
-        message: "Please list your collaborators:"
+        message: "Any collaborators on the project?"
+    },
+
+    {
+        type: "list",
+        name: "license",
+        message: "What license is your project using?",
+        choices: ["Mozilla Public License 2.0", "Academic Free License v3.0", "Microsoft Public License", "None"]
     },
 ];
 
